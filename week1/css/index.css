@@ -1,0 +1,163 @@
+body{
+    background-color:rgb(54, 27, 27)
+    
+
+}
+#p1{
+    margin-left: 300px;
+    margin-top: -130px;
+    color: rgb(54, 27, 27);
+    font-weight: 800;
+}
+#p2{
+    margin-left: 300px;
+    margin-top: -130px;
+    color: rgb(54, 27, 27);
+    font-weight: 800;
+}
+#p3{
+    margin-left: 300px;
+    margin-top: -130px;
+    color: rgb(54, 27, 27);
+    font-weight: 800;
+}
+#p4{
+    margin-left: 300px;
+    margin-top: -130px;
+    color: rgb(54, 27, 27);
+    font-weight: 800;
+}
+#p5{
+    margin-left: 300px;
+    margin-top: -130px;
+    color: rgb(54, 27, 27);
+    font-weight: 800;
+}
+h1{
+    color: bisque;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.option{
+    margin-top: 10px;
+}
+.option a{
+   
+    text-align:center;
+    
+    font-size: 25px;
+}
+.option a:link{
+    color: rgb(242, 245, 203);
+}
+.option a:visited{
+    color:beige;
+}
+.option a:hover{
+    
+        background-color:bisque;
+        color:rgb(54, 27, 27);
+}
+
+
+.coffee1{
+    background-color: bisque;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 600px;
+    height: 270px;
+    color:rgb(54, 27, 27) ;
+    
+}
+h3{
+    text-align: center;
+}
+.coffee2{
+    background-color: bisque;
+    margin-top: -70px;
+    margin-left: 800px;
+    width: 600px;
+    height: 270px;
+    color:rgb(54, 27, 27) ;
+}
+.coffee3{
+    background-color: bisque;
+    margin-top: -70px;
+    margin-left: 100px;
+    width: 600px;
+    height: 270px;
+    color:rgb(54, 27, 27) ;
+}
+.coffee4{
+    background-color: bisque;
+    margin-top: -70px;
+    margin-left: 800px;
+    width: 600px;
+    height: 270px;
+    color:rgb(54, 27, 27) ;
+}
+.coffee5{
+    background-color: bisque;
+    margin-top: -70px;
+    margin-left: 100px;
+    width: 600px;
+    height: 270px;
+    color:rgb(54, 27, 27) ;
+}
+#photo1{
+    margin-left: 60px;
+}
+#photo2{
+    margin-left: 60px;
+}
+#photo3{
+    margin-left: 60px;
+}
+#photo4{
+    margin-left: 60px;
+}
+#photo5{
+    margin-left: 60px;
+}
+p{
+    margin-top:-30px;
+    color: bisque;
+    text-align:center;
+    text-transform: capitalize;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+footer{
+    text-align: center;
+    color: bisque;
+}
+.option2 a{
+   
+    text-align:center;
+    
+    font-size: 25px;
+}
+.option2 a:link{
+    color: rgb(242, 245, 203);
+}
+.option2 a:visited{
+    color:beige;
+}
+.option2 a:hover{
+    
+        background-color:bisque;
+        color:rgb(54, 27, 27);
+}
+button {
+    background-color:rgb(54, 27, 27);
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
