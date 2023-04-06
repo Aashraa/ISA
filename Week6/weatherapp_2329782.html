@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+      body{
+    background-image: url(wallpaperflare.com_wallpaper_2329782.png);
+    background-size: 100%;
+    height: 750px;
+}
+#sections{
+    width: 90%;
+    max-width: 470px ;
+    margin:100px auto 0;
+    border-radius:20px ;
+    padding:40px 35px;
+    margin-top: 100px;
+    text-align: center;
+    /* height: 100px;
+    background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160));
+    color: aliceblue; */
+}
+.date{
+    margin-left: -1068px;
+    margin-top: -37px;
+}
+.day{
+    margin-left: -1200px;
+    margin-top: -38px;
+}
+.time{
+    margin-left: -1330px;
+    margin-top: -38px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -83px;
+    margin-left: 450px;
+}
+.search input{
+    height: 30px;
+     font-size: 18px;
+     flex: 1;
+     margin-right: 16px;
+     padding: 10px 25px;
+     border-radius: 30px;
+}
+.search button{
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+#img1{
+    width: 30px;
+    height:30px;
+  
+}
+.weather-icon{
+   width: 150px;
+   height:150px;
+   margin-top: -15px;
+   margin-left: -700px;
+   /* margin-left:-1000px;  */
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:-10px 
+}
+#img2{
+    width: 150px;
+    height:100px;
+  
+}
+.weather{
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 470px ;
+    margin:100px auto 0;
+    border-radius:20px ;
+    padding:40px 35px;
+    text-align: center;
+    height:620px;
+    /* background-color: black; */
+    /* background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160)); */
+    color: aliceblue;
+}
+.pressure{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.rainfall{
+    
+    font-size: 23px;
+    margin-top: 115px;
+}
+.de{
+    margin-left: -1250px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+/* .da{
+    margin-left: -1100px;
+    font-size: 18px;
+    margin-top: -40px;
+} */
+.max{
+    margin-left: -1100px;
+    margin-top:-63px;
+}
+/* .min{
+    margin-left: -1000px;
+    margin-top: -60px;
+} */
+.details{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 21px;
+     margin-top: 160px;
+     margin-left: 30px;
+     
+
+}
+#rai{
+    width: 90px;
+    height: 90px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 150px;
+    height: 150px;
+    margin-right:10px ;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top:-6px;
+}
+.temp{
+   margin-left: -1150px;
+   margin-top: -200px;
+   margin-bottom: 30px;
+}
+.city{
+    margin-left: -1200px;
+    margin-bottom: -10px;
+    /* margin-top: -100px; */
+    /* margin-top: -1000px; */
+}
+#hellu{
+    margin-top: -100px;
+}
+#pres{
+    width: 90px;
+    height: 90px;
+}
+/* for tablets */
+@media screen and (min-width:481px)and (max-width:768px){
+    /* .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -81px;
+        margin-left: 171px;
+    } */
+    .rainfall {
+        font-size: 33px;
+        margin-top: -25px;
+    }
+    #hellu {
+        margin-top: 30px;
+    }
+    #rai {
+        width: 80px;
+        height: 80px;
+    }
+    #pres {
+        width: 69px;
+        height: 69px;
+    }
+    #img2 {
+        width: 105px;
+        height: 85px;
+    }
+    .time {
+        margin-left: -651px;
+        margin-top: -38px;
+    }
+    body{
+        background-image: url(wallpaperflare.com_wallpaper\ \(2\)_2329782.png);
+        background-size: 100%;
+    }
+    .search input {
+        height: 30px;
+        font-size: 32px;
+        flex: 1;
+        margin-right: 3px;
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+    .weather-icon {
+        width: 150px;
+        height: 150px;
+        margin-top: -23px;
+        margin-left: -75px;
+        /* margin-left: -1000px; */
+    }
+    .temp {
+        margin-left: -535px;
+        margin-top: -200px;
+        margin-bottom: 30px;
+    }
+    .city {
+        margin-left: -586px;
+        margin-bottom: -10px;
+        /* margin-top: -100px; */
+        /* margin-top: -1000px; */
+    }
+    .de {
+        margin-left: -629px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .max {
+        margin-left: -481px;
+        margin-top: -63px;
+    }
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 21px;
+        margin-top: 89px;
+        margin-left: -211px;
+    }
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -81px;
+        margin-left: -9px;
+    }
+    .col img {
+        width: 100px;
+        height: 106px;
+        margin-right: 10px;
+    }
+}
+/* for mobiles */
+@media screen and (min-width:320px)and (max-width:480px){
+    /* *{
+        /* background-repeat: no-repeat; */
+        /* overflow: hidden; */
+    
+    body{
+        background-image: url(wallpaperflare.com_wallpaper\ \(1\)_2329782.png);
+        background-size: 100%;
+    }
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -38px;
+        margin-left: -42px;
+    }
+    .time {
+        margin-left: -257px;
+        margin-top: -38px;
+    }
+    .search input {
+        height: 26px;
+        font-size: 12px;
+        flex: 1;
+        margin-right: 3px;
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin-left: -1px;
+        margin-top: 1px;
+    }
+#sections {
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin-top: 13px;
+    text-align: center;
+}
+/* .weather-icon {
+    width: 110px;
+    height: 110px;
+    margin-top: -60px;
+    margin-left: -136px;
+    /* margin-left: -1000px; */
+
+.weather {
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    height: 620px;
+    margin-top: 40px;
+    /* background-color: black; */
+    /* background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160)); */
+    color:aliceblue;
+}
+.weather-icon {
+    width: 110px;
+    height: 110px;
+    margin-top: -19px;
+    margin-left: -208px;
+    /* margin-left: -1000px; */
+}
+.weather h1 {
+    font-size: 63px;
+    font-weight: 500;
+}
+
+.temp {
+    margin-left: -173px;
+    margin-top: -19px;
+}
+/* .weather h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -52px;
+} */
+.weather h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -45px;
+}
+.city {
+    margin-left: -221px;
+    margin-top: -981px;
+}
+.de {
+    margin-left: -232px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#hellu {
+    margin-top: 497px;
+    margin-left: 13px;
+}
+.max {
+    margin-left: -90px;
+    margin-top: -63px;
+}
+.details {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin-top: -129px;
+    margin-left: -95px;
+}
+.col img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+ /* .details { */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin-top: 143px;
+    margin-left: -95px;
+} */ */
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+#img2 {
+    margin-top: -46px;
+    width: 95px;
+    height: 53px;
+}
+/* .humidity {
+    font-size: 28px;
+    margin-top: 77px;
+    margin-left: -13px;
+}
+.wind {
+    font-size: 28px;
+    margin-top: 208px;
+    margin-left: 4px;
+} */
+
+#win {
+    margin-left: -215px;
+    margin-top: 133px;
+    width: 75px;
+    height: 75px;
+}
+#pres {
+    width: 50px;
+    height: 50px;
+    margin-left: -279px;
+    margin-bottom: -295px;
+}
+#hi {
+    margin-top: -10px;
+    line-height: 5px;
+}
+#hel {
+    margin-top: 177px;
+    line-height: 5px;
+}
+#hell {
+    margin-left: 19px;
+    margin-top: 330px;
+    line-height: 5px;
+}
+#rai {
+    width: 60px;
+    height: 60px;
+    margin-left: -170px;
+    margin-top: 462px;
+}
+.hellu{
+    margin-top: 100px;
+}
+}
+    </style>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+
+<body>
+  <div id="sections">
+
+    <div class="search">
+      <input type="text"class="weather_search" placeholder="Enter City">
+      <button><img src="download_2329782.png" id="img1"></button>
+      <button id="bla">Home</button>
+    </div>
+    <div class="weather">
+      <img src="weather-icon_2329782.png" class="weather-icon"> 
+      <h1 class="temp"></h1>
+      <h2 class="city">Belfast</h2>
+      <h6 class="de">Feels Like</h6>
+      <h5 class="time"></h5>
+      <h5 class="day"></h5>
+      <h5 class="date"></h5>
+      <h3 class="max"></h3>
+      <!-- <h6 class="da">Min -</h6>
+      <h3 class="min"></h3> -->
+       <div class="details">
+        <div class="col">
+          <img src="humidity_2329782.png" id="img2">
+          <div id="hi">
+            <p class="humidity"></p>
+            <p>Humidity</p>
+          </div>
+        
+        </div>
+        <div class="col">
+          <img src="download (1)_2329782.png" id="win">
+          <div id="hel">
+            <p class="wind"></p>
+            <p>Wind Speed</p>
+          </div>
+         
+            
+        </div>
+        <div class="col">
+          <img src="pressure1_2329782.png" id="pres">
+          <div id="hell">
+            <p class="pressure"></p>
+            <p>Pressure</p>
+          </div>
+        <div class="col">
+          <img src="rainfall_2329782.png" id="rai">
+          <div id="hellu">
+        <p class="rainfall"></p>
+        <p>Rainfall</p>
+
+          </div>
+        </div>   
+        </div>
+       </div>
+    </div>
+  </div>
+    <script>
+       const API_KEY= 'fbfacabfab5d390352db75280774894d'
+       
+       const searchBox = document.querySelector(".search input");
+       const searchBtn = document.querySelector(".search button");
+       const weatherIcon = document.querySelector(".weather-icon");
+      
+      //  const backgroundImg = document.querySelector(body);
+        let city='Belfast'
+       async function checkWeather(){
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
+        var data = await response.json();
+        console.log(data);
+        document.querySelector(".city").innerHTML=data.name;
+        document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°C"; 
+        document.querySelector(".max").innerHTML=data.main.feels_like+"°C"; 
+        // document.querySelector(".min").innerHTML=data.main.temp_min+"°C"; 
+        document.querySelector(".humidity").innerHTML=data.main.humidity+"% ";
+        document.querySelector(".wind").innerHTML=data.wind .speed+"km/hr";
+        document.querySelector(".pressure").innerHTML=data.main.pressure+"Pa";
+        document.querySelector(".rainfall").innerHTML
+        const { "1h": rain1h, "3h": rain3h } = data.rain || {}; 
+        const rainfall = rain1h ? rain1h + " mm (1h)" : rain3h ? rain3h + " mm (3h)" : "N/A";
+        document.querySelector(".rainfall").innerHTML = rainfall;
+        // document.querySelector(".time").innerHTML
+        //  Adding time
+        // const timezoneoffset = data.timezone / 1600;
+        // const now = new Date();
+        // now.setHours(now.getHours()+timezoneoffset)
+        // const currenttime = now.toLocaleTimeString("en-US",{
+        // hour:"numeric",
+        // minute: "numeric",
+        // hour12:true,
+        // timezone:data.timezone,
+        document.querySelector(".time").innerHTML
+        //Adding time
+        const timezoneoffset = data.timezone / 1600;
+        const now = new Date();
+        now.setHours(now.getHours()+timezoneoffset)
+        const currenttime = now.toLocaleTimeString("en-US",{
+        hour:"numeric",
+        minute: "numeric",
+        hour12:true,
+        timezone:data.timezone,
+       });
+       document.querySelector(".time").innerHTML = currenttime;
+       document.querySelector(".day").innerHTML
+       //Adding Days
+       const days = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"]
+       const currentDate = new Date();
+       const currentDay = days[currentDate.getDay()];
+       document.querySelector(".day").innerHTML = currentDay;
+       document.querySelector(".date").innerHTML
+       //Adding Date
+       const today = new Date();
+       const date = today.getDate();
+       const month = today.getMonth() + 1; 
+       const year = today.getFullYear();
+       document.querySelector(".date").innerHTML=`${date}/ ${month}/ ${year}`
+      
+       //  document.querySelector(".day").innerHTML = currentDay;
+        if(data.weather[0].main=="Clouds"){
+          weatherIcon.src = "clouds_2329782.png";
+        }
+        else if(data.weather[0].main=="Clear"){
+          weatherIcon.src = "clear_2329782.png";
+        }
+        else if(data.weather[0].main=="Rain"){
+          weatherIcon.src = "rain_2329782.png";
+        }
+        else if(data.weather[0].main=="Drizzle"){
+          weatherIcon.src = "drizzle_2329782.png";
+        }
+        else if(data.weather[0].main=="Mist"){
+          weatherIcon.src = "mist_2329782.png";
+        }
+        else if(data.weather[0].main=="Snow"){
+          weatherIcon.src = "snow_2329782.png";
+        }
+        if(data.cod=="404"){
+          document.getElementById("box").innerHTML=`Error`
+        }
+
+        // if(data.weather[0].main=="Rain"){
+        //   backgroundImg.src = "wallpaperflare.com_wallpaper.jpg";
+        // }
+        // else{
+        //   backgroundImg.src = "wallpaperflare.com_wallpaper.png";
+        // }
+        // else if(data.weather[0].main=="Clear"){
+        //   weatheIcon.src = "rain.png";
+        // }
+      //   document.querySelector(".weather").innerHTML=`
+      // <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png" class="weather-icon">`;
+       
+     
+      //  const weatherIcon = document.querySelector('.weather-icon');
+    // fetchWeather: function (city) {
+      
+      // .then(response => response.json())
+      // .then(data =>{
+      //   console.log(data)
+        
+      // document.querySelector(".weat").innerHTML=data.weather.0.description; 
+
+      //  weatherIcon.style.backgroundImage = `url('https://openweathermap.org/img/w/${data.weather[0].icon}.png')`;
+    }
+      searchBtn.addEventListener("click",()=>{
+        city=searchBox.value;
+        checkWeather()
+        
+      })
+      checkWeather()
+     a= document.getElementById("bla")
+     a.addEventListener("click",()=>{
+    location.reload();
+     })
+     
+      
+    </script>
+</body>
+</html>
