@@ -1,0 +1,469 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper_2329782.png);
+    background-size: 100%;
+    height: 750px;
+}
+#sections{
+    width: 90%;
+    max-width: 470px ;
+    margin:100px auto 0;
+    border-radius:20px ;
+    padding:40px 35px;
+    margin-top: 100px;
+    text-align: center;
+    /* height: 100px;
+    background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160));
+    color: aliceblue; */
+}
+.date{
+    margin-left: -1068px;
+    margin-top: -37px;
+}
+.day{
+    margin-left: -1200px;
+    margin-top: -38px;
+}
+.time{
+    margin-left: -1330px;
+    margin-top: -38px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -83px;
+    margin-left: 450px;
+}
+.search input{
+    height: 30px;
+     font-size: 18px;
+     flex: 1;
+     margin-right: 16px;
+     padding: 10px 25px;
+     border-radius: 30px;
+}
+.search button{
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+#img1{
+    width: 30px;
+    height:30px;
+  
+}
+.weather-icon{
+   width: 150px;
+   height:150px;
+   margin-top: -15px;
+   margin-left: -700px;
+   /* margin-left:-1000px;  */
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:-10px 
+}
+#img2{
+    width: 150px;
+    height:100px;
+  
+}
+.weather{
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 470px ;
+    margin:100px auto 0;
+    border-radius:20px ;
+    padding:40px 35px;
+    text-align: center;
+    height:620px;
+    /* background-color: black; */
+    /* background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160)); */
+    color: aliceblue;
+}
+.pressure{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.rainfall{
+    
+    font-size: 23px;
+    margin-top: 115px;
+}
+.de{
+    margin-left: -1250px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+/* .da{
+    margin-left: -1100px;
+    font-size: 18px;
+    margin-top: -40px;
+} */
+.max{
+    margin-left: -1100px;
+    margin-top:-63px;
+}
+/* .min{
+    margin-left: -1000px;
+    margin-top: -60px;
+} */
+.details{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 21px;
+     margin-top: 160px;
+     margin-left: 30px;
+     
+
+}
+#rai{
+    width: 90px;
+    height: 90px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 150px;
+    height: 150px;
+    margin-right:10px ;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top:-6px;
+}
+.temp{
+   margin-left: -1150px;
+   margin-top: -200px;
+   margin-bottom: 30px;
+}
+.city{
+    margin-left: -1200px;
+    margin-bottom: -10px;
+    /* margin-top: -100px; */
+    /* margin-top: -1000px; */
+}
+#hellu{
+    margin-top: -100px;
+}
+#pres{
+    width: 90px;
+    height: 90px;
+}
+/* for tablets */
+@media screen and (min-width:481px)and (max-width:768px){
+    /* .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -81px;
+        margin-left: 171px;
+    } */
+    .rainfall {
+        font-size: 33px;
+        margin-top: -25px;
+    }
+    #hellu {
+        margin-top: 30px;
+    }
+    #rai {
+        width: 80px;
+        height: 80px;
+    }
+    #pres {
+        width: 69px;
+        height: 69px;
+    }
+    #img2 {
+        width: 105px;
+        height: 85px;
+    }
+    .time {
+        margin-left: -651px;
+        margin-top: -38px;
+    }
+    body{
+        background-image: url(wallpaperflare.com_wallpaper\ \(2\)_2329782.png);
+        background-size: 100%;
+    }
+    .search input {
+        height: 30px;
+        font-size: 32px;
+        flex: 1;
+        margin-right: 3px;
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+    .weather-icon {
+        width: 150px;
+        height: 150px;
+        margin-top: -23px;
+        margin-left: -75px;
+        /* margin-left: -1000px; */
+    }
+    .temp {
+        margin-left: -535px;
+        margin-top: -200px;
+        margin-bottom: 30px;
+    }
+    .city {
+        margin-left: -586px;
+        margin-bottom: -10px;
+        /* margin-top: -100px; */
+        /* margin-top: -1000px; */
+    }
+    .de {
+        margin-left: -629px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .max {
+        margin-left: -481px;
+        margin-top: -63px;
+    }
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 21px;
+        margin-top: 89px;
+        margin-left: -211px;
+    }
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -81px;
+        margin-left: -9px;
+    }
+    .col img {
+        width: 100px;
+        height: 106px;
+        margin-right: 10px;
+    }
+}
+/* for mobiles */
+@media screen and (min-width:320px)and (max-width:480px){
+    /* *{
+        /* background-repeat: no-repeat; */
+        /* overflow: hidden; */
+    
+    body{
+        background-image: url(wallpaperflare.com_wallpaper\ \(1\)_2329782.png);
+        background-size: 100%;
+    }
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -38px;
+        margin-left: -42px;
+    }
+    .time {
+        margin-left: -257px;
+        margin-top: -38px;
+    }
+    .search input {
+        height: 26px;
+        font-size: 12px;
+        flex: 1;
+        margin-right: 3px;
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin-left: -1px;
+        margin-top: 1px;
+    }
+#sections {
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin-top: 13px;
+    text-align: center;
+}
+/* .weather-icon {
+    width: 110px;
+    height: 110px;
+    margin-top: -60px;
+    margin-left: -136px;
+    /* margin-left: -1000px; */
+
+.weather {
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    height: 620px;
+    margin-top: 40px;
+    /* background-color: black; */
+    /* background: linear-gradient(rgb(239, 223, 223), rgb(132, 132, 213), rgb(160, 233, 160)); */
+    color:aliceblue;
+}
+.weather-icon {
+    width: 110px;
+    height: 110px;
+    margin-top: -19px;
+    margin-left: -208px;
+    /* margin-left: -1000px; */
+}
+.weather h1 {
+    font-size: 63px;
+    font-weight: 500;
+}
+
+.temp {
+    margin-left: -173px;
+    margin-top: -19px;
+}
+/* .weather h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -52px;
+} */
+.weather h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -45px;
+}
+.city {
+    margin-left: -221px;
+    margin-top: -981px;
+}
+.de {
+    margin-left: -232px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#hellu {
+    margin-top: 497px;
+    margin-left: 13px;
+}
+.max {
+    margin-left: -90px;
+    margin-top: -63px;
+}
+.details {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin-top: -129px;
+    margin-left: -95px;
+}
+.col img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+ /* .details { */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin-top: 143px;
+    margin-left: -95px;
+} */ */
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+#img2 {
+    margin-top: -46px;
+    width: 95px;
+    height: 53px;
+}
+/* .humidity {
+    font-size: 28px;
+    margin-top: 77px;
+    margin-left: -13px;
+}
+.wind {
+    font-size: 28px;
+    margin-top: 208px;
+    margin-left: 4px;
+} */
+
+#win {
+    margin-left: -215px;
+    margin-top: 133px;
+    width: 75px;
+    height: 75px;
+}
+#pres {
+    width: 50px;
+    height: 50px;
+    margin-left: -279px;
+    margin-bottom: -295px;
+}
+#hi {
+    margin-top: -10px;
+    line-height: 5px;
+}
+#hel {
+    margin-top: 177px;
+    line-height: 5px;
+}
+#hell {
+    margin-left: 19px;
+    margin-top: 330px;
+    line-height: 5px;
+}
+#rai {
+    width: 60px;
+    height: 60px;
+    margin-left: -170px;
+    margin-top: 462px;
+}
+#next{
+    margin-bottom: 1000px;
+    /* margin-top: -1000px;
+    margin-left: -1000px; */
+}
+.hellu{
+    margin-top: 100px;
+}
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+} */
+}
